@@ -1,0 +1,77 @@
+body{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: large;
+  text-align: center;
+}
+
+.TablePhaseOne {
+  display: table;
+  margin-left: 25px;
+  width: 250px;
+}
+
+.TablePhaseTwo {
+  display: none;
+  margin-left: 25px;
+  width: 250px;
+}
+
+.Title {
+  display: table-caption;
+  text-align: center;
+  font-weight: bold;
+  font-size: larger;
+}
+
+.Heading {
+  display: table;
+  margin : auto;
+  width : 250px;
+  font-weight: bold;
+  text-align: center;
+  background-color: skyblue;
+}
+
+.Row {
+  display: table-row;
+}
+
+.Cell {
+  display: table-cell;
+  min-width: 50px;
+  height: 20px;
+  text-align: center;
+  border: solid;
+  border-width: thin;
+  padding: 5px;
+}
+
+.BorderlessCell{
+  display: table-cell;
+  padding-left: 10px;
+}
+
+input{
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: large;
+  border-style: thin;
+  width : 100px;
+}
+
+.TopStuff {
+  position: relative;
+  margin: auto;
+  width : fit-content;
+  margin-bottom: 10px;
+  
+}
+
+.container{
+  margin : auto;
+  width : 350px;
+  max-width: 350px;
+  max-height : 200px;
+  overflow : auto;
+  border: none;
+}
